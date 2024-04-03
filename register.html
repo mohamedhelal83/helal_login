@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helal</title>
+    <!-- font awesome.css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    <!--end google font-->
+    <!--wow.css-->
+    <link rel="stylesheet" href="css/wow.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!--bootstrap.css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--mdbootstarp-->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!--css file-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #eff1fd;">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75 rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>Create Account</h2>
+                <h5 class="text-muted my-3">Go ahead and sign up, let everyone<br> know how awesome you are!</h5>
+                <h5 id="message"></h5>
+                <form action ="created.html"method="post"onsubmit="return validation()">
+                    <input type ="text" name="user" id="user" class="form-control mb-4 p-4"placeholder="user name">
+                    <input type ="text" name="email" id="email" class="form-control mb-4 p-4"placeholder="E-mail">
+                    <input type ="text" name="pass" id="pass" class="form-control mb-4 p-4"placeholder="password">
+                    <input type ="text" name="confirm" id="confirm" class="form-control mb-4 p-4"placeholder="confirm password">
+                    <input type ="submit" value ="Create New Account"class="btn btn-primary btn-block">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--mdb bootstrap.js-->
+    <script src ="js/mdb.umd.min.js"></script>
+    <!-- font awesome.js -->
+    <script src ="js/all.min.js"></script>
+    <!-- jquery.js file-->
+ <script src="js/jquery.slim.min.js"></script>
+ <!--popper.js file-->
+ <script src="js/popper.min.js"></script>
+ <!--bootstrap.js file-->
+ <script src="js/bootstrap.min.js"></script>
+ <!--wow.js--> 
+ <script src="js/wow.min.js"></script> 
+ <script>
+    new WOW().init();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

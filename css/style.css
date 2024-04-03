@@ -1,0 +1,7 @@
+.square{
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    transition: all 1s linear;
+}
